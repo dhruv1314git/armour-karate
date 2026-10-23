@@ -1,0 +1,26 @@
+{
+    "name": "armour/karate-association",
+    "description": "Armour Martial Arts – Gujju Karate Association Website (Core PHP 8.2+ / Bootstrap 5 / MySQL PDO)",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Armour Martial Arts",
+            "email": "contact@armourkarate.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armour\\": "app/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
